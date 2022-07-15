@@ -1,0 +1,28 @@
+.header {
+  background-color: #839AA8;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__component {
+    text-align: center;
+    color: white;
+    background-color: #354f6b;
+    height: 100%;
+    width: 50px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  &__currency {
+    margin-top: 15px;
+    line-height: 50%;
+  }
+  &_rate {
+    line-height: 50%;
+    margin: 0;
+    background-color: #3FC1C9;
+  }
+}
+
